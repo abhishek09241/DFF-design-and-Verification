@@ -12,7 +12,7 @@ class driver;
 		repeat(5) @(posedge vif.clk);		// Wait for 5 clock cycles
 		vif.rst <= 1'b0;	// Deassert reset signal
 		@(posedge vif.clk);	// Wait for one more clock cycle
-		$display("[DRV] : RESET DONE",]);  // Display reset completion message
+		$display("[DRV] : RESET DONE");  // Display reset completion message
 	endtask : reset
 
 

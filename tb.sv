@@ -1,3 +1,5 @@
+import sim_dff_pkg::*;
+
 module tb ;
 	dff_interface vif();	//Create DUT interface
 

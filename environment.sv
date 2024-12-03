@@ -19,7 +19,7 @@ class environment;
 		gen 	= 	new(gdmbx, mbxref);	// Initialize the generator
 		drv     = 	new(gdmbx);		// Initialize the driver
 		msmbx	= 	new();			// Create a mailbox for  monitor-scoreboard communication
-		mon 	= 	new(msmbx,mbxref);	// Initialize the monitor
+		mon 	= 	new(msmbx);	// Initialize the monitor
 		sco 	= 	new(msmbx,mbxref);	// Initialize the scoeboard
 		this.vif =	vif;				// Set the virtual interface for DUT
 		drv.vif  = 	this.vif;			// Connect the virtual interface to the driver
@@ -29,7 +29,7 @@ class environment;
 	endfunction		
 	
 	task pre_test();
-		dr.reset(); 		// Perform the driver reset
+		drv.reset(); 		// Perform the driver reset
 	endtask : pre_test
 
 	task test();
@@ -40,6 +40,11 @@ class environment;
 			sco.run();	// Start scoreboard
 		join_any
 	endtask : test
+
+	task post_test();
+		wait(gen.done.triggered);
+		$finish();		
+	endtask : post_test
 
 	task run();
 		pre_test();		// Run pre_test setup

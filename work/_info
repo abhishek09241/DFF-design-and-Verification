@@ -1,0 +1,163 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/abhishek
+T_opt
+!s11d sim_dff_pkg /home/abhishek/DFF/work 1 dff_interface 1 /home/abhishek/DFF/work 
+!s110 1733251062
+V^dPTBVoUL>[f:VU8ISm6i2
+04 2 4 work tb fast 0
+=1-000ae431a4f1-674f4ff6-b96b4-1747
+R0
+!s12b OEM100
+!s124 OEM10U3 
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+vdff
+2dff.sv
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1733251025
+!i10b 1
+!s100 L;Qbof6FiU1mgJFRX7TYb2
+IM@TNZ?iz40g:f582F1Lz42
+S1
+Z3 d/home/abhishek/DFF
+w1733243591
+8dff.sv
+Fdff.sv
+!i122 4
+L0 3 24
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2023.3;77
+r1
+!s85 0
+31
+!s108 1733251025.000000
+!s107 dff.sv|
+!s90 -reportprogress|300|dff.sv|
+!i113 0
+Z6 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Ydff_interface
+2dff_interface.sv
+R2
+!s110 1733251014
+!i10b 1
+!s100 NHKQFZ_PVK_Cbac7V?SSd3
+IkabAY0Na7jCa]43dRTXRR2
+S1
+R3
+w1733241558
+8dff_interface.sv
+Fdff_interface.sv
+!i122 3
+Z7 L0 1 0
+R4
+R5
+r1
+!s85 0
+31
+!s108 1733251014.000000
+!s107 dff_interface.sv|
+!s90 -reportprogress|300|dff_interface.sv|
+!i113 0
+R6
+R1
+Xsim_dff_pkg
+2sim_dff_pkg.sv
+!s115 dff_interface
+R2
+!s110 1733251037
+!i10b 1
+!s100 UP@@B=Z>UZJIdVVY=[LkZ1
+I[_Z3>DgAWJed:<`69;o^_2
+S1
+R3
+w1733250424
+8sim_dff_pkg.sv
+Fsim_dff_pkg.sv
+Ftransaction.sv
+Fgenerator.sv
+Fdriver.sv
+Fmonitor.sv
+Fscoreboard.sv
+Fenvironment.sv
+!i122 5
+R7
+V[_Z3>DgAWJed:<`69;o^_2
+R5
+r1
+!s85 0
+31
+!s108 1733251037.000000
+!s107 environment.sv|scoreboard.sv|monitor.sv|driver.sv|generator.sv|transaction.sv|sim_dff_pkg.sv|
+!s90 -reportprogress|300|sim_dff_pkg.sv|
+!i113 0
+R6
+R1
+vtb
+Z8 2tb.sv
+R2
+Z9 DXx4 work 11 sim_dff_pkg 0 22 [_Z3>DgAWJed:<`69;o^_2
+DXx4 work 10 tb_sv_unit 0 22 1n=RX><M[[GHRfdHk<]H70
+Z10 !s110 1733251043
+R4
+r1
+!s85 0
+!i10b 1
+!s100 YiFAcf]Mcg>5gK4?6Wf9S1
+IQbkW`2z_A5TYDBePM_c?>3
+!s105 tb_sv_unit
+S1
+R3
+Z11 w1733250491
+Z12 8tb.sv
+Z13 Ftb.sv
+!i122 6
+L0 3 27
+R5
+31
+Z14 !s108 1733251043.000000
+Z15 !s107 tb.sv|
+Z16 !s90 -reportprogress|300|tb.sv|
+!i113 0
+R6
+R1
+Xtb_sv_unit
+R8
+R2
+R9
+R10
+V1n=RX><M[[GHRfdHk<]H70
+r1
+!s85 0
+!i10b 1
+!s100 A7hRlQaKm=oN5GNPZ=;@d1
+I1n=RX><M[[GHRfdHk<]H70
+!i103 1
+S1
+R3
+R11
+R12
+R13
+!i122 6
+R7
+R5
+31
+R14
+R15
+R16
+!i113 0
+R6
+R1
